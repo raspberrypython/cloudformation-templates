@@ -41,7 +41,7 @@ Resources:
       LaunchTemplateData:
         InstanceType:
           Ref: InstanceType
-        ImageId: ami-034fffcc6a0063961
+        ImageId: ami-0713f98de93617bb4
         SecurityGroupIds:
           - Fn::ImportValue:
               Fn::Sub: ${NetworkStackName}-BastionHostSecurityGroup
